@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+          <div class="left-section">
+          <img class="humburger-icon" src="../icons/hamburger-menu.svg">
+          <img class="youtube-icon" src="../icons/youtube-logo.svg">
+      </div>
+    <div class="middle-section">
+      <input placeholder="Search" class="search-bar">
+      <button class="button-search-img">
+      <img class="search-img" src="../icons/search.svg">
+      <div class="tooltip">
+        Search
+      </div>
+      </button>
+      <button class="button-voice-icon">
+      <img class="voice-icon" src="../icons/voice-search-icon.svg">
+      <div class="tooltip">
+        Search with your voice
+      </div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="countainer-upload">
+      <img class="upload" src="../icons/upload.svg">
+        <div class="tooltip">
+        Create
+      </div>
+      </div>
+      <div class="countainer-youtube-apps">
+      <img class="yt-apps" src="../icons/youtube-apps.svg">
+      <div class="tooltip">
+        Youtube Apps
+      </div>
+      </div>
+      <div class="countianer-notifications">
+      <div class="notification-number">+9</div>
+      <img class="notification" src="../icons/notifications.svg">
+      <div class="tooltip">
+        notifications
+      </div>
+      </div>
+      <img class="channel-icon" src="../icons/180403217.png">
+    </div>
+    </div>
+    <div class="sidebar">
+          <div class="sidebar-boxes">
+        <div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="../icons/home.svg">
+        </div>
+        <div style="
+       display: flex; align-items: center; font-weight: 400;
+       font-size: 10px; justify-content: center; margin-top: 6px; 
+        ">Home</div>
+        </div>
+      </div>
+    <div class="sidebar-boxes">
+        <div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="../icons/explore.svg">
+        </div>
+        <div style="
+       display: flex; align-items: center; font-weight: 400;
+       font-size: 10px; justify-content: center; margin-top: 6px;
+        ">Explore</div>
+        </div>
+      </div>
+      <div class="sidebar-boxes">
+        <div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="../icons/subscriptions.svg">
+        </div>
+        <div style="
+       display: flex; align-items: center; font-weight: 400;
+       font-size: 10px; justify-content: center; margin-top: 6px;
+        ">Subscriptions</div>
+        </div>
+      </div>
+      <div class="sidebar-boxes">
+        <div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="../icons/originals.svg">
+        </div>
+        <div style="
+       display: flex; align-items: center; justify-content: center; font-weight: 400;
+       font-size: 10px; margin-top: 6px;">Originals</div>
+        </div>
+      </div>
+      <div class="sidebar-boxes">
+        <div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="../icons/youtube-music.svg">
+        </div>
+        <div style="
+       display: flex; align-items: center; font-weight: 400; margin-top: 6px;
+       font-size: 10px; justify-content: center;
+        ">YouTube Music</div>
+        </div>
+      </div>
+      <div class="sidebar-boxes">
+        <div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="../icons/library.svg">
+        </div>
+        <div style="
+       display: flex; align-items: center; font-weight: 400; margin-top: 6px;
+       font-size: 10px; justify-content: center;
+        ">Library</div>
+        </div>
+      </div>
+      </div>
+    <div class="big-sidebar">
+      <div class="big-box">
+        <div class="big-img-countainer">
+          <img src="../icons/home.svg" class="big-img">
+        </div>
+        <div class="big-text" style="padding-right: 105px;">
+          Home
+        </div>
+      </div>
+      <div class="big-box">
+        <div class="big-img-countainer">
+          <img src="../icons/explore.svg"class="big-img">
+        </div>
+        <div class="big-text" style="padding-right: 92px;">
+          Explorer
+        </div>
+      </div>
+      <div class="big-box">
+        <div class="big-img-countainer">
+          <img src="../icons/subscriptions.svg" class="big-img">
+        </div>
+        <div class="big-text" style="padding-right: 50px;">
+          Subsecriptions
+        </div>
+      </div>
+      <div class="big-box">
+        <div class="big-img-countainer">
+          <img src="../icons/originals.svg" class="big-img">
+        </div>
+        <div class="big-text" style="padding-right: 88px;">
+          Originals
+        </div>
+      </div>
+      <div class="big-box">
+        <div class="big-img-countainer">
+          <img src="../icons/youtube-music.svg" class="big-img">
+        </div>
+        <div class="big-text" style="white-space: nowrap; padding-right: 50px;">
+          Youtube Music
+        </div>
+      </div>
+      <div class="big-box">
+        <div class="big-img-countainer">
+          <img src="../icons/library.svg" class="big-img">
+        </div>
+        <div class="big-text" style="padding-right: 98px;">
+          Library
+        </div>
+      </div>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-time">
+            3:47
+          </div>
+          <a href="https://www.youtube.com/watch?v=OgF7CiE3yVw">
+          <img class="thumbnail" src="../thumbnails/felina.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture"
+            src="../channel-pictures/felina.jpg">
+  
+             <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/felina.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Beastlife.</div>
+              <div style="font-size: 13px; color: gray;">26.1K subsecribers</div>
+              </div>
+              </div>
+            </div>
+          <div class="video-info">
+            <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=OgF7CiE3yVw">
+            <p class="video-title">
+              felina
+            </p>
+            </a>
+            <p class="video-author">
+              Beastlife.
+            </p>
+            <p class="video-stats">
+              6.2M views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            0:19
+          </div>
+          <a href="https://www.youtube.com/watch?v=ZhxbPLzFmzs">
+          <img class="thumbnail" src="../thumbnails/black-hole.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../channel-pictures/black-hole..jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/black-hole..jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Marques Brownlee</div>
+              <div style="font-size: 13px; color: gray;">149K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=ZhxbPLzFmzs">
+            <p class="video-title">
+              This is Interstellar on 4K
+            </p>
+            </a>
+            <p class="video-author">
+              Jemartob
+            </p>
+            <p class="video-stats">
+              2.7M views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            9:13
+          </div>
+          <a href="https://www.youtube.com/watch?v=5hFd6zGkxLE&t=50s">
+          <img class="thumbnail" src="../thumbnails/cr7.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../channel-pictures/real-madried.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/real-madried.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">real madrid</div>
+              <div style="font-size: 13px; color: gray;">20M subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=5hFd6zGkxLE&t=50s">
+            <p class="video-title">
+            THANK YOU, CRISTIANO RONALDO | Real Madrid Official Video
+            </p>
+            </a>
+            <p class="video-author">
+              real madrid
+            </p>
+            <p class="video-stats">
+              74M views &#183; 8 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            1:29
+          </div>
+          <a href="https://www.youtube.com/watch?v=IEutSVj8RA4">
+          <img class="thumbnail" src="../thumbnails/dexter.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../channel-pictures/dexter.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/dexter.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">24KJHON EDITZ</div>
+              <div style="font-size: 13px; color: gray;">55.8K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=IEutSVj8RA4">
+            <p class="video-title">            
+            DEXTER | Welcome And Goodbye | EDIT | It's Faith | Literally Me | HD60FPS 
+            </p>
+            </a>
+            <p class="video-author">
+              24KJHON EDITZ
+            </p>
+            <p class="video-stats">
+              617K views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            2:14
+          </div>
+          <a href="https://www.youtube.com/watch?v=RkQ-h20vvgI&list=RDRkQ-h20vvgI&start_radio=1">
+          <img class="thumbnail" src="../thumbnails/hqdefault.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="../channel-pictures/lost-soul.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/lost-soul.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">H1TDOWN</div>
+              <div style="font-size: 13px; color: gray;">53.5K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=RkQ-h20vvgI&list=RDRkQ-h20vvgI&start_radio=1">
+            <p class="video-title">
+            NBSPLV - The lost soul down X Lost soul (ChainsawMan Girls)
+            </p>
+            </a>
+            <p class="video-author">
+              H1TDOWN
+            </p>
+            <p class="video-stats">
+              76M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            4:40
+          </div>
+          <a href="https://www.youtube.com/watch?v=HTvJl71zmf4">
+          <img class="thumbnail" src="../thumbnails/interstillar.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/intersillar.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/intersillar.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Pashed</div>
+              <div style="font-size: 13px; color: gray;">19.3K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=HTvJl71zmf4]]">
+            <p class="video-title">
+            5 Minutes of Interstellar in 4K
+            </p>
+            </a>
+            <p class="video-author">
+              Phased
+            </p>
+            <p class="video-stats">
+              7.8M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            7:47
+          </div>
+          <a href="https://www.youtube.com/watch?v=NMRhx71bGo4&list=RDRkQ-h20vvgI&index=2">
+          <img class="thumbnail" src="../thumbnails/let-it-happen.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/let-it-hapeen.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/let-it-hapeen.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Tame lmpala</div>
+              <div style="font-size: 13px; color: gray;">3.5M subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=NMRhx71bGo4&list=RDRkQ-h20vvgI&index=3">
+            <p class="video-title">
+            Let It Happen
+            </p>
+            </a>
+            <p class="video-author">
+              Tame lmpala
+            </p>
+            <p class="video-stats">
+              131M views &#183; 7 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            1:20
+          </div>
+          <a href="https://www.youtube.com/watch?v=Mo44qvtshQA">
+          <img class="thumbnail" src="../thumbnails/light-yagami.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/light-yagami.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/light-yagami.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">xMo7a</div>
+              <div style="font-size: 13px; color: gray;">1.05K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=Mo44qvtshQA">
+            <p class="video-title">  
+            Death Note - SHADOWS [Edit/AMV]!
+            </p>
+            </a>
+            <p class="video-author">
+              xMo7a
+            </p>
+            <p class="video-stats">
+              319K views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            6:57
+          </div>
+          <a href="https://www.youtube.com/watch?v=OToBXEuYvmo">
+          <img class="thumbnail" src="../thumbnails/macarena.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/macarena.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/macarena.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Pashed</div>
+              <div style="font-size: 13px; color: gray;">33.7K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=OToBXEuYvmo">
+            <p class="video-title"> 
+            Macarena (Slowed + Reverb) | Gulf War ‘90 - ‘91
+            </p>
+            </a>
+            <p class="video-author">
+              LegoGuy Prouductions
+            </p>
+            <p class="video-stats">
+              11M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            4:39
+          </div>
+          <a href="https://www.youtube.com/watch?v=NDT6k7_y3AY">
+          <img class="thumbnail" src="../thumbnails/naplion.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/naplion.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/naplion.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Speed Up Songs</div>
+              <div style="font-size: 13px; color: gray;">22.9K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=NDT6k7_y3AY">
+            <p class="video-title">
+            Napoleon's song (Amour Plastique- slowed version)
+            </p>
+            </a>
+            <p class="video-author">
+              Speed Up Songs
+            </p>
+            <p class="video-stats">
+              20M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            0:32
+          </div>
+          <a href="https://www.youtube.com/watch?v=yqjPI_m1ulA">
+          <img class="thumbnail" src="../thumbnails/oppenhimer.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/black-hole..jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/black-hole..jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">Pashed</div>
+              <div style="font-size: 13px; color: gray;">149K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=yqjPI_m1ulA">
+            <p class="video-title">       
+            [4K] Oppenheimer「Edit」(Shadows)
+            </p>
+            </a>
+            <p class="video-author">
+            Jemartob
+            </p>
+            <p class="video-stats">
+              1.1M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+            <div class="video-time">
+            2:54
+          </div>
+          <a href="https://www.youtube.com/watch?v=DeIk06jAULc">
+          <img class="thumbnail" src="../thumbnails/pepe.avif">
+          </a>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture"> 
+            <img class="profile-picture" src="../channel-pictures/pepe.jpg">
+            <div class="tooltip-exercies">
+              <div class="channel-countainer">
+                 <img class="channel-picturee"
+                  src="../channel-pictures/pepe.jpg">
+              </div>
+                  <div style="display: block; padding-right: 20px ;">
+              <div style="
+                font-weight: 700; margin-bottom: 5px;
+                ">kevchzz12</div>
+              <div style="font-size: 13px; color: gray;">7.17K subsecribers</div>
+              </div>
+              </div>
+          </div>
+          <div class="video-info">
+             <a style="color: black; text-decoration:none;" 
+            href="https://www.youtube.com/watch?v=DeIk06jAULc">
+            <p class="video-title">
+            PEPE -cupid-
+            </p>
+            </a>
+            <p class="video-author">
+              kevchzz12
+            </p>
+            <p class="video-stats">
+              6.7M views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

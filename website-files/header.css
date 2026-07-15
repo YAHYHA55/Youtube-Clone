@@ -1,0 +1,223 @@
+.header {
+  display: flex;
+  height: 70px;
+  position: fixed;
+  z-index: 100;
+  margin-bottom: 10px;
+  background-color: white;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(208, 208, 208);
+  justify-content: space-between;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-right: 8%;
+}
+.middle-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 600px;
+  margin-right: 20px;
+}
+.right-section {
+  display: flex;
+  position: relative;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.humburger-icon {
+  width: 40px;
+  cursor: pointer;
+  height: 100%;
+  margin-left: 20px;
+}
+.youtube-icon {
+  width: 140px;
+  cursor: pointer;
+  height: 100%;
+  margin-left: 40px;
+}
+.search-bar {
+  height: 40px;
+  flex: 1;
+  width: 0;
+  padding-left: 5px;
+  font-weight: bolder;
+  font-size: 14px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+.button-search-img {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  margin-left: -1px;
+  position: relative;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
+.button-search-img .tooltip {
+  position: absolute;
+  padding: 8px 8px;
+  bottom: -50px;
+  background-color: rgba(65, 65, 65, 0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.button-search-img:hover .tooltip {
+  opacity: 1;
+}
+.search-img {
+  width: 30px;
+}
+.button-voice-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  background-color: rgb(242, 242, 242);
+}
+.button-voice-icon .tooltip {
+  position: absolute;
+  padding: 8px 8px;
+  bottom: -36px;
+  background-color: rgba(65, 65, 65, 0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.button-voice-icon:hover .tooltip {
+  opacity: 1;
+}
+.voice-icon {
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+}
+.upload {
+  cursor: pointer;
+  width: 40px;
+  position: relative;
+}
+.countainer-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countainer-upload .tooltip {
+  position: absolute;
+  font-family: Roboto;
+  padding: 8px 8px;
+  bottom: -37px;
+  background-color: rgba(65, 65, 65, 0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.countainer-upload:hover .tooltip {
+  opacity: 1;
+}
+.yt-apps {
+  cursor: pointer;
+  width: 40px;
+  position: relativel;
+}
+.countainer-youtube-apps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countainer-youtube-apps .tooltip {
+   position: absolute;
+  font-family: Roboto;
+  padding: 8px 8px;
+  bottom: -37px;
+  background-color: rgba(65, 65, 65, 0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.countainer-youtube-apps:hover .tooltip {
+  opacity: 1;
+}
+.notification {
+  width: 40px;
+  cursor: pointer;
+}
+.countianer-notifications {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countianer-notifications .tooltip {
+  position: absolute;
+  font-family: Roboto;
+  padding: 8px 8px;
+  bottom: -37px;
+  background-color: rgba(65, 65, 65, 0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.countianer-notifications:hover .tooltip {
+  opacity: 1;
+}
+.channel-icon {
+  width: 40px;
+  cursor: pointer;
+}
+.notification-number {
+  position: absolute;
+  background-color: rgb(196, 0, 0);
+  color: white;
+  z-index: 200;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  right: 0px;
+  top: 0px;
+}
